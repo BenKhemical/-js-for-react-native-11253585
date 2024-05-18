@@ -1,7 +1,5 @@
 # js-for-react-native-11253585
 
-# js-for-react-native-11253585
-
 # Project Title: Array Processing and User Profiles
 
 ## Description
