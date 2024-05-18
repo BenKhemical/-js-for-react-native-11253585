@@ -1,7 +1,7 @@
 function processArray(num){
 
   return num.map(number => {
-    if(num % 2 == 0){
+    if(number % 2 == 0){
       return number * number;
     } else {
       return number * number * number;
@@ -21,7 +21,7 @@ function formatArrayStrings(arrStrings, arr){
 
   if (arrStrings.length !== arr.length){
 
-    throw new console.error();
+    throw new Error("[]");
   }
   return arrStrings.map((str, index)=>{
 
